@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              "rode-page":
+                "url('./assets/rode-rodecaster-pro-II-home-page.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+    <title>RODE-clone</title>
+  </head>
+  <body>
+    <div class="flex flex-wrap py-1 justify-around xl:flex-col ">
+      <div class="flex flex-wrap justify-around xl:border-b xl:border-gray-300">
+        <div class="flex">
+          <img class=" h-5 xl:h-4 mt-2 mr-2" src="./assets/bars-solid.svg" alt="" />
+          <img class="" src="./assets/location.svg" alt="" />
+          <a href="#" class="text-black no-underline py-2 pl-1 text-sm"
+            >EN&#9660;
+          </a>
+        </div>
+        <img class="hidden xl:flex" src="./assets/man-icon.svg" alt="" />
+      </div>
+    
+      <div class="flex flex-wrap gap-4 sm:gap-60 lg:gap-80 xl:justify-evenly xl:py-5">
+        <img class="flex" src="./assets/rode-logo.svg" alt="" />
+        <ul class="hidden xl:flex gap-5 font-sans text-md">
+          <li>PRODUCTS</li>
+          <li>USER</li>
+          <li>GUIDES</li>
+          <li>SOLUTIONS</li>
+          <li>APPAREL</li>
+          <li>SUPPORT</li>
+        </ul>
+        <img class="" src="./assets/search.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="xl:bg-rode-page xl:h-[700px] bg-black lg:flex lg:justify-between flex-col gap-10  xl:items-end  xl:justify-center xl:px-20">
+     
+        <img class="flex xl:hidden" src="./assets/rode-rodecaster.png" alt="">
+     
+      <div class="py-10">
+      <img class="mx-auto h-10 lg:h-20" src="./assets/RODECasterProII.svg" alt="">
+      <h1 class="text-center text-white text-2xl md:text-4xl py-3">The Revolution Is Here</h1>
+      <p class="text-center text-white text-md md:text-xl py-2">The RØDECaster Pro II is the world's most powerful all-in-one<br> audio solution for streamers, podcasters, musicians, and creators.<br> Take your content to the next level.</p>
+      <!-- <img class="h-[700px]  flex " src="./assets/rode-rodecaster-pro-II-home-page.jpg" alt=""> -->
+    </div>
+    </div>
+  </body>
+</html>
