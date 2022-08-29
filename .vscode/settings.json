@@ -1,4 +1,5 @@
 {
-    "editor.formatOnType": true,
-    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true
+  "editor.formatOnType": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+  "liveServer.settings.port": 5501
 }
